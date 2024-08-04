@@ -1,1 +1,3 @@
 # pdf-query-chorma-db
+
+I created a question-answering portal that processes data from PDFs or any text document to provide accurate answers based on similarity search. The workflow begins with uploading the document, which is then converted into embeddings using the OpenAI API. These embeddings are stored in a Chroma vector database, where they can be efficiently retrieved. When a query is made, the system searches for similar vectors, retrieves the relevant information, and generates a response. This integration ensures precise and efficient answers based on the content of the uploaded documents.
